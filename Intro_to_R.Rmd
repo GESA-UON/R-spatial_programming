@@ -1,0 +1,32 @@
+---
+title: "Introduction to R"
+output: html_notebook
+author: Levis Kitonge
+---
+
+## 1. Basic Syntax and Variables
+Here is how to print text and define variables. 
+
+```{r}
+#.....Printing my first code......#
+print("Hello World")
+print("Hello World",quote = FALSE)
+
+#======Basic syntax===============#
+
+#.............Variables.......#
+# Legal variable names:
+myvar <- "John" 
+my_var <- "John"
+myVar <- "John"
+MYVAR <- "John"
+myvar2 <- "John"
+.myvar <- "John"
+
+# Illegal variable names (Commented out to prevent errors):
+# 2myvar <- "John"
+# my-var <- "John"
+# my var <- "John"
+# _my_var <- "John"
+# my_v@ar <- "John"
+# TRUE <- "John"
